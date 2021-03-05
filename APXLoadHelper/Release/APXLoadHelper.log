@@ -1,0 +1,74 @@
+﻿Build started 2018-01-01 23:22:05.
+     1>Project "C:\Adam\C++Files\APXLoadHelper\APXLoadHelper\APXLoadHelper.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\APXLoadHelper.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D APXLOADHELPER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\APXLoadHelper.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt APXLoadHelper.cpp
+         APXLoadHelper.cpp
+     1>c:\adam\c++files\apxloadhelper\apxloadhelper\APXLoadHelper.h(38): warning C4190: 'APXLoadFileToString' has C-linkage specified, but returns UDT 'std::basic_string<_Elem,_Traits,_Ax>' which is incompatible with C
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\adam\c++files\apxloadhelper\apxloadhelper\APXLoadHelper.h(42): warning C4190: 'APXReadStringFromString' has C-linkage specified, but returns UDT 'std::basic_string<_Elem,_Traits,_Ax>' which is incompatible with C
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\adam\c++files\apxloadhelper\apxloadhelper\APXLoadHelper.h(103): warning C4190: 'APXLoadStringToStringFromString' has C-linkage specified, but returns UDT 'std::basic_string<_Elem,_Traits,_Ax>' which is incompatible with C
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>APXLoadHelper.cpp(50): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(47): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(181): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>APXLoadHelper.cpp(188): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>APXLoadHelper.cpp(309): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>APXLoadHelper.cpp(316): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>APXLoadHelper.cpp(329): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(425): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>APXLoadHelper.cpp(381): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(477): warning C4018: '<' : signed/unsigned mismatch
+     1>APXLoadHelper.cpp(434): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(431): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(492): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(489): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(590): warning C4018: '<' : signed/unsigned mismatch
+     1>APXLoadHelper.cpp(592): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>APXLoadHelper.cpp(547): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(544): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(648): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>APXLoadHelper.cpp(605): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(602): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(658): warning C4101: 'letter' : unreferenced local variable
+     1>APXLoadHelper.cpp(655): warning C4101: 'end' : unreferenced local variable
+     1>APXLoadHelper.cpp(708): warning C4101: 'end' : unreferenced local variable
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\APXLoadHelper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.lib" /MACHINE:X86 /DLL Release\APXLoadHelper.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+            Creating library C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.lib and object C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.exp
+         Generating code
+         Finished generating code
+         APXLoadHelper.vcxproj -> C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Adam\C++Files\APXLoadHelper\Release\APXLoadHelper.dll;#2" /manifest Release\APXLoadHelper.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\APXLoadHelper.unsuccessfulbuild".
+         Touching "Release\APXLoadHelper.lastbuildstate".
+     1>Done Building Project "C:\Adam\C++Files\APXLoadHelper\APXLoadHelper\APXLoadHelper.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.13
